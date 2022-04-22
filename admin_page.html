@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Style For This Template -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+     <!-- Jquery -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Sclick Slider -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Custom Javascript -->
+    <script src="assets/js/main.js"></script>
+    <style type="text/css">
+        * {
+  transition: all 500ms ease-out;
+  -webkit-transition: all 500ms ease-out;
+    }
+     </style>
+</head>
+<body style="background: #374046; overflow: hidden;">
+    <div class="ct" id="t1">
+        <div class="ct" id="t2">
+            <div class="ct" id="t3">
+                <div class="ct" id="t4">
+                    <div class="ct" id="t5">
+                    <section> 
+                        <!----------------------
+                        |   Sidemenu Begin    |
+                        ----------------------->
+                        <div class="sidebar">
+                            <input type="checkbox" id="check">
+                            <label for="check">
+                                <a id="btn">Manage</a>
+                                <i class="fas fa-times" id="cancel"></i>
+                            </label>
+                            <div class="menu">
+                                <header>Manage</header>
+                                    <ul>
+                                        <a href="#t1"><li>See Admissions</li></a>
+                                        <a href="#t2"><li>Update About</li></a>
+                                        <a href="#t3"><li>Update Contacts</li></a>
+                                        <a href="#t4"><li>Message</li></a>
+                                        <a href="#t5"><li>Admin Details</li></a>
+                                    </ul>
+                                    <a href="admin_logout.php"><button class="btn btn-dark">Logout</button></a>
+                            </div>
+                        </div>
+                        <!----------------------
+                        |   Sidemenu End        |
+                        ----------------------->
+                        <div class="page" id="p1">
+                            <div class="main-box">
+                                <div class="title-box">
+                                    <h2>Admissions</h2>
+                                </div>
+                                <div class="form-box">
+                                    <div class="radio_tabs">
+                                            <label class="radio_wrap" data-radio="radio_1">
+                                                <input type="radio" name="prenursery" class="input">
+                                                <span class="radio_mark">Pre-Nuresery</span>
+                                            </label>
+                                            <label class="radio_wrap" data-radio="radio_2">
+                                                <input type="radio" name="prenursery" class="input">
+                                                <span class="radio_mark">Nuresery</span>
+                                            </label>
+                                            <label class="radio_wrap" data-radio="radio_3">
+                                                <input type="radio" name="prenursery" class="input">
+                                                <span class="radio_mark">LKG</span>
+                                            </label>
+                                            <label class="radio_wrap" data-radio="radio_4">
+                                                <input type="radio" name="prenursery" class="input">
+                                                <span class="radio_mark">UKG</span>
+                                            </label>
+                                    </div>
+                                    <!----------------------
+                                    |   Data Table Begin    |
+                                    ----------------------->
+                                    <div class="content">
+                                        <!---------------------------
+                                        |   Pre-Nursery Table Begin  |
+                                         --------------------------->
+                                            <div class="radio_content radio_1">
+                                                <h2>Pre-Nursery Admissions</h2>
+                                                <table class="table table-bordered">
+                                                  <thead class="thead-dark">
+                                                    <tr>
+                                                      <th scope="col">ChildName</th>
+                                                      <th scope="col">Father Name</th>
+                                                      <th scope="col">Mobile Number</th>
+                                                      <th scope="col">Address</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                            </div>
+                                            <!--------------------------
+                                            |   Pre-Nursery Table End   |
+                                            --------------------------->
+                                            <!------------------------
+                                            |   Nursery Table Begin   |
+                                            ------------------------->
+                                            <div class="radio_content radio_2">
+                                                <h2>Nursery Admissions</h2>
+                                                <table class="table table-bordered">
+                                                  <thead class="thead-dark">
+                                                    <tr>
+                                                      <th scope="col">ChildName</th>
+                                                      <th scope="col">Father Name</th>
+                                                      <th scope="col">Mobile Number</th>
+                                                      <th scope="col">Address</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                            </div>
+                                            <!----------------------
+                                            |   Nursery Table End   |
+                                            ----------------------->
+                                            <!--------------------
+                                            |   LKG Table Begin   |
+                                            --------------------->
+                                            <div class="radio_content radio_3">
+                                                <h2>LKG Admissions</h2>
+                                                <table class="table table-bordered">
+                                                  <thead class="thead-dark">
+                                                    <tr>
+                                                      <th scope="col">ChildName</th>
+                                                      <th scope="col">Father Name</th>
+                                                      <th scope="col">Mobile Number</th>
+                                                      <th scope="col">Address</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                            </div>
+                                            <!------------------
+                                            |   LKG Table End   |
+                                            ------------------->
+                                            <!--------------------
+                                            |   UKG Table Begin   |
+                                            --------------------->
+                                            <div class="radio_content radio_4">
+                                                <h2>UKG Admissions</h2>
+                                                <table class="table table-bordered">
+                                                  <thead class="thead-dark">
+                                                    <tr>
+                                                      <th scope="col">ChildName</th>
+                                                      <th scope="col">Father Name</th>
+                                                      <th scope="col">Mobile Number</th>
+                                                      <th scope="col">Address</th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                            </div>
+                                            <!------------------
+                                            |   UKG Table End   |
+                                            ------------------->
+                                    </div>
+                                <!--------------------
+                                |   Data Table End    |
+                                --------------------->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page" id="p2">
+                            <div class="main-box">
+                                <div class="title-box">
+                                    <h2>Update About</h2>
+                                </div>
+                                <div class="form-box">
+                                    <form action="" method="POST">
+                                        <label>Teacher</label>
+                                        <input type="text" name="teacher" class="form-control" value="10+" autocomplete="off">
+                                        <label>Student</label>
+                                        <input type="text" name="student" class="form-control" value="100+" autocomplete="off">
+                                        <label>Classroom</label>
+                                        <input type="text" name="classroom" class="form-control" value="10+" autocomplete="off">
+                                        <label>Bus</label>
+                                        <input type="text" name="bus" class="form-control" value="5+" autocomplete="off"><br>
+                                        <button type="submit" name="update-about" class="btn btn-primary">Save</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="page" id="p3">
+                            <div class="main-box">
+                                <div class="title-box">
+                                    <h2>Update Contacts</h2>
+                                </div>
+                                <div class="form-box">
+                                    <form action="" method="POST">
+                                        <label>Phone</label>
+                                        <input type="text" name="phone" class="form-control" value="111-222-3333" autocomplete="off">
+                                        <label>Whatsapp</label>
+                                        <input type="text" name="whatsapp" class="form-control" value="9876543210" autocomplete="off">
+                                        <label>Email</label>
+                                        <input type="text" name="email" class="form-control" value="mychhotaschool@gmail.com" autocomplete="off">
+                                        <label>Location</label>
+                                        <textarea type="text" name="location" class="form-control" autocomplete="off">10, Community Center, Ashok Vihar II, Phase 2, Ashok Vihar, Delhi, 110052</textarea>
+                                        <label>Location URL (Map)</label>
+                                        <textarea type="text" name="map_url" class="form-control" autocomplete="off">https://www.google.com/maps/place/My+Chhota+School/@28.6961509,77.1777898,17z/data=!3m1!4b1!4m5!3m4!1s0x390d034fd26d3b07:0x2ccda468a90429bf!8m2!3d28.6961887!4d77.1799068</textarea>
+                                        <label>Facebook Account URL</label>
+                                        <textarea type="text" name="fb_url" class="form-control" autocomplete="off">www.facebook.com</textarea>
+                                        <label>Instagram Account URL</label>
+                                        <textarea type="text" name="ig_url" class="form-control" autocomplete="off">www.instagram.com</textarea><br>
+                                        <button type="submit" name="update-contacts" class="btn btn-primary">Save</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page" id="p4">
+                            <div class="main-box">
+                                <div class="title-box">
+                                    <h2>Messages</h2>
+                                </div>
+                                <div class="form-box">
+                                    <!----------------------
+                                    |   Message Table Begin    |
+                                    ----------------------->
+                                    <div class="content">
+                                            <div class="radio_content radio_1">
+                                                <table class="table table-bordered">
+                                                  <thead class="thead-dark">
+                                                    <tr>
+                                                      <th scope="col">Name</th>
+                                                      <th scope="col">Mobile Number</th>
+                                                      <th scope="col">Message</th>
+                                                      <th scope="col"><i class="fa fa-trash text-light"></i></th>
+                                                    </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                    <tr>
+                                                        <td colspan="4">No messages yet !</td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                            </div>
+                                    </div>
+                                <!--------------------
+                                |   Message Table End |
+                                --------------------->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page" id="p5">
+                            <div class="main-box">
+                                <div class="title-box">
+                                    <h2>Admin Details</h2>
+                                </div>
+                                <div class="form-box">
+                                    <form action="" method="POST">
+                                        <label>Username</label>
+                                        <input type="text" name="admin" class="form-control" value="admin" autocomplete="off">
+                                        <label>Password</label>
+                                        <input type="password" name="password" class="form-control" value="********" autocomplete="off"><br>
+                                        <button type="submit" name="update-admin" class="btn btn-primary">Save</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+                    $(".content .radio_content").hide();
+                    $(".content .radio_content:first-child").show();
+                    $(".radio_wrap").click(function(){
+                        var current_radio = $(this).attr("data-radio");
+                        $(".content .radio_content").hide();
+                        $("."+current_radio).show();
+                    });
+
+                });
+    </script>
+</body>
+</html>
